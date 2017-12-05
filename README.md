@@ -28,11 +28,12 @@ LINUX COMPILATION INSTRUCTIONS
 Core Algorithm
 
   Firstly, creating a genetic algorithm based off evolution, I used the following simple pseudocode 
-  //create first sudoku from file
+  
+  	//create first sudoku from fill
 	  //fill population with first sudoku to (size)
 	  //for (# of generations)
-		  //cull x percent of the generation
-		  //breed 10 per each one thats left
+	    //cull x percent of the generation
+	    //breed 10 per each one thats left
 	  //print best sudoku puzzle
 
   I had 90% percent of the population culled therefore when repopulating the population to near the original size, 
